@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Developer Jobs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="body" class="light-mode">
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./images/logo.jpeg" alt="">
+                <span>CleverJobs</span>
+            </div>
+            <div class="mode-switcher">
+                <span>Dark/Light Mode: </span>
+                <button type="button" name="dark_light" onclick="toggleDarkLight()"
+                    title="Toggle dark/light mode">🌛</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="search-container">
+            <div class="input-container">
+                <i class="fas fa-search"></i>
+                <input type="text" name="filter-jobs" id="filter-jobs" placeholder="Filter by Title">
+                <input type="text" name="filter-jobs" id="filter-company" placeholder="Filter by Company">
+                <input type="text" name="filter-jobs" id="filter-places" placeholder="Filter by Place">
+
+            </div>
+            <div class="button-container">
+                <span>
+                    Find Jobs
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="jobs-wrappar">
+        <div class="jobs-list">
+            <h1>Showing 15 Jobs</h1>
+            <div class="jobs-container">
+                <div class="job-tile">
+                    <div class="top">
+                        <img src="./images/logo.jpeg" alt="">
+                        <span class="material-icons more_horiz">more_horiz</span>
+                    </div>
+                    <div class="rolename">
+                        <span>Lead Class Design</span>
+
+                    </div>
+                    <div class="description">
+                        <span>Lorem ipsum, dolor sit amet consectetur adipiror dolorem doloribus illum! Minus maiores
+                            doloremque laboriosam esse voluptates corrupti eligendi nisi sunt maxime recusandae.</span>
+                    </div>
+                    <div class="buttons">
+                        <div class="button apply-now">
+                            <span>Apply Now</span>
+                        </div>
+                        <div class="button message">
+                            <span>Message</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-tile">
+                    heloo
+                </div>
+                <div class="job-tile">
+                    heloo
+                </div>
+                <div class="job-tile">
+                    heloo
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
